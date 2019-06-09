@@ -60,8 +60,8 @@ iš          |2                      |4 5  |
 prie        |2                      |1 8  |
 ```
 
-Reikia nepamiršti, jog programa spausdina tik tuos žodžius, kurie pasikartoja daugiau nei 1 kartą
+Reikia nepamiršti, jog programa spausdina tik tuos žodžius, kurie pasikartoja daugiau nei 1 kartą:
 
-Lentelei sudaryti naudojamos funkcijos 
-* int repeatingLength(map<string, vector<int>> &reference) 
-* int wordLength(map<string, vector<int>>& wordsNumbers)
+Lentelei sudaryti naudojamos funkcijos: 
+* **int repeatingLength(map<string, vector<int>> &reference)** 
+* **int wordLength(map<string, vector<int>>& wordsNumbers)**
