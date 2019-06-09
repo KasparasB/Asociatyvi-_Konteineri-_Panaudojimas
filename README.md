@@ -13,7 +13,7 @@ Užduočiai atlikti pasinaudojau std::map rikiavimo konteinerį, kuris tam tikra
 Programos veikimas susideda iš kelių dalių:
 
 ```shell
-  readUrl();
+        readUrl();
 	read(reference);
 	print(reference);
 ```
@@ -60,6 +60,19 @@ iš          |2                      |4 5  |
 prie        |2                      |1 8  |
 ```
 
+### Išrikiuotas tekstas
+
+```shell
+Tikrai nesirengiau dar karta sugrižti prie balandžio menesi mano aprašytosios
+Cekijos cirko gastroliu Lietuvoje temos, sukelusios aštria neabejingos Lietuvos visuomenes
+dalies diskusija. Taciau dienos bega, o situacija visiškai nesikeicia. Negana
+to, sveciai iš Cekijos, peržengdami visas padorumo ribas, tiesiog ižuliai
+tyciojasi iš musu. Gegužes menesio pradžioje Seimo narys Linqas Balsys,
+dar 2017 metais Seime iregistraves Gyvunu geroves ir apsaugos istatymo
+pataisas, kreipesi i Aplinkos ministerija, Aplinkos apsaugos agentura, Valstybine maisto
+ir veterinarine tarnyba bei Keliu direkcija prie Susisiekimo ministerijos del
+balandžio 30 diena Šiauliuose gatvemis vedžioto dramblio. Skaitykite daugiau:
+```
 Reikia nepamiršti, jog programa spausdina tik tuos žodžius, kurie pasikartoja daugiau nei 1 kartą:
 
 Lentelei sudaryti naudojamos funkcijos: 
