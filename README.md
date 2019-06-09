@@ -4,10 +4,9 @@
 
 **makefile**
 
-1. Įsikelti makefile į **vector** direktoriją
-2. Per terminalą įeiti į vector direktoriją
-3. Įrašyti **make**
-4. Baigus darbą įrašyti **make Valymas**
+1. Per terminalą įeiti į projekto direktoriją
+2. Įrašyti **make**
+3. Baigus darbą įrašyti **make Valymas**
 
 
 ### Užduoties formuluotė
