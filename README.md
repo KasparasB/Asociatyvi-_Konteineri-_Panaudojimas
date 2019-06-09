@@ -6,7 +6,8 @@
 
 1. Per terminalą įeiti į projekto direktoriją
 2. Įrašyti **make**
-3. Baigus darbą įrašyti **make Valymas**
+3. **./main**
+4. Baigus darbą įrašyti **make Valymas**
 
 
 ### Užduoties formuluotė
