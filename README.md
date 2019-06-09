@@ -27,10 +27,10 @@ Todėl adresas https://github.com/ neveiktų, nes turi tik vieną tašką, o www
 
 Labai patogu tai, jog tekstą galima dėti nesulygiuotą ir programa jį sutvarko.
 
-**2. Nuskaitomas tekstas ir ištrinami tokie simboliai kaip: **',','-','.','!','?','(', ')','„','–','“'**
-**3. Viso teksto žodžių raidės nustatomos mažosiomis**
-**4. Į konteinerį sudedami žodžiai išsaugant jų eilutės numerį**
-**5. Rezultatas išvedamas į failą**
+**2. Nuskaitomas tekstas ir ištrinami tokie simboliai kaip: **',','-','.','!','?','(', ')','„','–','“' **
+**3. Viso teksto žodžių raidės nustatomos mažosiomis **
+**4. Į konteinerį sudedami žodžiai išsaugant jų eilutės numerį **
+**5. Rezultatas išvedamas į failą **
 
 ### Teksto pavyzdys
 
