@@ -17,7 +17,7 @@ Programos veikimas susideda iš kelių dalių:
 	read(reference);
 	print(reference);
 ```
-1. Programa nuskaito visą vartotojo pateiktą tekstą, sudeda jį į std::vector tipo konteinerį ir ieško jame url adresų. Jeigu pavyksta rasti url adresą, programa perrašo duomenų failą taip, jog jame neliktų url adresų.
+**1. Programa nuskaito visą vartotojo pateiktą tekstą, sudeda jį į std::vector tipo konteinerį ir ieško jame url adresų. Jeigu pavyksta rasti url adresą, programa perrašo duomenų failą taip, jog jame neliktų url adresų.**
 
 url paieška vykdoma pagal kelis kriterijus. 
 * Tikrinama ar adresas prasideda "https::/", "http::/", "www"
@@ -27,10 +27,10 @@ Todėl adresas https://github.com/ neveiktų, nes turi tik vieną tašką, o www
 
 Labai patogu tai, jog tekstą galima dėti nesulygiuotą ir programa jį sutvarko.
 
-2. Nuskaitomas tekstas ir ištrinami tokie simboliai kaip: **',','-','.','!','?','(', ')','„','–','“'**
-3. Viso teksto žodžių raidės nustatomos mažosiomis
-4. Į konteinerį sudedami žodžiai išsaugant jų eilutės numerį
-5. Rezultatas išvedamas į failą
+**2. Nuskaitomas tekstas ir ištrinami tokie simboliai kaip: **',','-','.','!','?','(', ')','„','–','“'**
+**3. Viso teksto žodžių raidės nustatomos mažosiomis**
+**4. Į konteinerį sudedami žodžiai išsaugant jų eilutės numerį**
+**5. Rezultatas išvedamas į failą**
 
 ### Teksto pavyzdys
 
