@@ -1,5 +1,15 @@
 # Asociatyvių konteinerių kūrimas
 
+### Paleidimas
+
+**makefile**
+
+1. Įsikelti makefile į **vector** direktoriją
+2. Per terminalą įeiti į vector direktoriją
+3. Įrašyti **make**
+4. Baigus darbą įrašyti **make Valymas**
+
+
 ### Užduoties formuluotė
 
 1. Suskaičiuokite, kiek kartų kiekvienas skirtingas žodis pasikartoja Jūsų tekste. Tekstą galite paimti iš bet kur, pvz.: www.delfi.lt naujiena ar Hario Poterio knygos puslapis/fragmentas. Tuomet realizacijos output'e (išoriniame faile) išveskite skirtingus žodžius (kableliai, taškai ir kiti skyrybos ženklai nėra žodžiu dalis!), kurie pasikartojo dažniau negu 1 kartą, o taip pat ir count'erį, nurodantį kiek kartų konkretus žodis pasikartojo.
