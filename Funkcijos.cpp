@@ -131,7 +131,7 @@ void read(map<string, vector<int>> &reference)
 		{
 			//s1.erase(remove_if(s1.begin(), s1.end(), Url));
 			//s1.erase(s1[0]);
-			s1.erase(remove_if(s1.begin(), s1.end(), [](char s) { return s == ',' || s == '-' || s == '.' || s == '!' || s == '?' || s == '(' || s == ')' || s == '„' || s == '–' || s == '“'; }),
+			s1.erase(remove_if(s1.begin(), s1.end(), [](char s) { return s == ',' || s == '-' || s == '.' || s == '!' || s == '?' || s == '(' || s == ')' || s == '„' || s == '–' || s == '“' || s == '‘' || s == '<' || s == '>' || s == '„' || s == '”' || s == '“' || s == '‚' || s == '’' || s == '‘'; }),
 				s1.end());
 			std::istringstream eil(s1);
 			while (eil.peek() != EOF)
@@ -157,7 +157,7 @@ void print(map<string, vector<int>> &reference)
 
 	Comparator compFunctor = [](std::pair<std::string, vector<int>>elem1 , std::pair<std::string, vector<int>>elem2)
 	{
-		return elem1.second.size() > elem2.second.size();
+		return elem1.second.size() < elem2.second.size();
 	};
 
 	std::multiset <std::pair<std::string, vector<int>>, Comparator> setOfWords(reference.begin(), reference.end(), compFunctor);
@@ -173,12 +173,17 @@ void print(map<string, vector<int>> &reference)
 	{
 		if (a.second.size() > 1)
 		{
+			vector<int> vec = a.second;
+
+			sort(vec.begin(), vec.end());
+			vec.erase(unique(vec.begin(), vec.end()), vec.end());
+
 			string test = "";
 			out << std::left << std::setw(maxLength) << a.first << std::right<<"|"<<std::left << std::setw(23) << a.second.size()<<std::right<<"|";
 			out <<std::left<<std::setw(maxSize * 2 + maxSize - 1);
-			for (int i = 0; i < a.second.size(); i++)
+			for (int i = 0; i < vec.size(); i++)
 			{
-				test += std::to_string(a.second[i]) + " ";
+				test += std::to_string(vec[i]) + " ";
 			}
 			out << test << std::right << "|" << endl;
 		}

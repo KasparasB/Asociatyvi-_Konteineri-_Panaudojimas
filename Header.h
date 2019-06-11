@@ -30,7 +30,6 @@ using std::remove_if;
 using std::map;
 using std::vector;
 
-
 bool Url(string word);
 int wordLength(map<string, size_t>& wordsNumbers);
 int repeatingLength(map<string, vector<int>> &reference);
