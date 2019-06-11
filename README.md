@@ -1,5 +1,9 @@
 # Asociatyvių konteinerių kūrimas
 
+WINDOWS APLINKOJE LIETUVIŠKOS RAIDĖS TURI VEIKTI
+LINUX APLINKOJE LIETUVIŠKOS RAIDĖS NEVEIKIA
+
+
 ### Paleidimas
 
 **makefile**
